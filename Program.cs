@@ -12,7 +12,7 @@ namespace HelloWorld_test
         {
             if (args.Length > 0)
             {
-                Console.WriteLine(string.Format("Hello {0}",args[0]));
+                Console.WriteLine(string.Format("Hello {0}!",args[0]));
             }
             else
             {
