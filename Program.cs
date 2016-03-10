@@ -18,6 +18,7 @@ namespace HelloWorld_test
             {
                 Console.WriteLine("Hello World");
             }
+            Console.WriteLine("Today's Date is: " + System.DateTime.Now);
             Console.WriteLine("\nPress any key to exit!");
             Console.ReadKey();
         }
